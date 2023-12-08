@@ -73,8 +73,7 @@ header {
 #menu-list .btn {
   background-color: var(--button-color);
   padding: 10px 26px;
-  font-size: 17px;
-  border: none;
+  font-size: 21px;
   color: white;
   font-weight: 700;
 }
@@ -82,6 +81,10 @@ header {
 #menu-list .btn:hover {
   cursor: pointer;
   background-color: #03557e;
+}
+
+#navbar #emoji-button{
+  display: none;
 }
 
 /*----FOR HOME-----*/
@@ -143,4 +146,24 @@ header {
   font-size: 17px;
   line-height: 1.5rem;
   padding: 0 19px;
+}
+
+
+@media screen and (max-width: 1018px) {
+  #menu-list{
+    gap: 24px;
+  }
+
+  #menu-list li{
+    font-size: 19px;
+  }
+
+  .left{
+    font-size: 24px;
+  }
+
+  #menu-list .btn{
+    font-size: 18px;
+    padding: 8px 22px;
+  }
 }
