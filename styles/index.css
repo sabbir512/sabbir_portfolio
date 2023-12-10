@@ -346,6 +346,9 @@ hr {
 /*--------For Smallest Mobile Device--------*/
 
 @media screen and (max-width: 325px) {
+  #navbar {
+    padding: 0px 24px;
+  }
   #menu-list {
     width: 65%;
   }
@@ -414,4 +417,199 @@ hr {
   .cards .card {
     width: 131vw;
   }
+}
+
+/*----------Image Section----------*/
+
+#Images {
+  min-height: 134vh;
+  padding: 28px 57px;
+}
+
+#Images .head-text {
+  font-size: 47px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+/*-----------FIRST IMAGE----------------*/
+
+.first-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 23px;
+  grid-template-areas: "contents imges imges";
+}
+
+.first-container .card {
+  min-height: 27vh;
+  width: 30vw;
+  background-color: var(--card-background);
+}
+
+.first-container .card p {
+  text-align: center;
+  margin-top: 33px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #f77d52;
+  transition: transform 1s ease-in-out;
+}
+
+.text-container {
+  width: 30vw;
+  grid-area: contents;
+}
+
+.text-container #first-project-content {
+  font-size: 19px;
+  font-family: serif;
+}
+
+.first-container .first-small-heading {
+  padding: 12px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4664fa;
+}
+
+.first-container .first-small-heading:hover {
+  cursor: pointer;
+}
+
+.first-container .ImgBox {
+  background-color: var(--card-background);
+  grid-area: imges;
+  overflow: hidden;
+  width: 100%;
+}
+
+.first-container .ImgBox img {
+  width: 60vw;
+  padding: 30px;
+  height: 447px;
+}
+
+/*-----------SECOND IMAGE----------------*/
+
+.second-conatiner {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 23px;
+  grid-template-areas: "imges imges contents";
+}
+
+.second-conatiner .card {
+  min-height: 27vh;
+  width: 30vw;
+  background-color: var(--card-background);
+}
+
+.second-conatiner .card p {
+  text-align: center;
+  margin-top: 33px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #f77d52;
+  transition: transform 1s ease-in-out;
+}
+
+.text-container {
+  width: 30vw;
+  grid-area: contents;
+}
+
+.text-container #second-project-content {
+  font-size: 19px;
+  font-family: serif;
+}
+
+.second-conatiner .second-small-heading {
+  padding: 12px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4664fa;
+}
+
+.second-conatiner .second-small-heading:hover {
+  cursor: pointer;
+}
+
+.second-conatiner .ImgBox {
+  background-color: var(--card-background);
+  grid-area: imges;
+  overflow: hidden;
+  width: 100%;
+}
+
+.second-conatiner .ImgBox img {
+  width: 60vw;
+  padding: 30px;
+  height: 447px;
+}
+
+/*-----------THIRD IMAGE----------------*/
+
+.third-container {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 23px;
+  grid-template-areas: "contents imges imges";
+}
+
+.third-container .card {
+  min-height: 27vh;
+  width: 30vw;
+  background-color: var(--card-background);
+}
+
+.third-container .card p {
+  text-align: center;
+  margin-top: 33px;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #f77d52;
+  transition: transform 1s ease-in-out;
+}
+
+.text-container {
+  width: 30vw;
+  grid-area: contents;
+}
+
+.text-container #third-project-content {
+  font-size: 19px;
+  font-family: serif;
+}
+
+.third-container .third-small-heading {
+  padding: 12px;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4664fa;
+}
+
+.third-container .third-small-heading:hover {
+  cursor: pointer;
+}
+
+.third-container .ImgBox {
+  background-color: var(--card-background);
+  grid-area: imges;
+  overflow: hidden;
+  width: 100%;
+}
+
+.third-container .ImgBox img {
+  width: 60vw;
+  padding: 30px;
+  height: 447px;
 }
