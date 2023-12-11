@@ -347,6 +347,106 @@ hr {
   height: 447px;
 }
 
+.beforeFooter {
+  width: 100%;
+  border: 5px solid #0938e3;
+}
+
+/*---------------FOOTER SECTION-----------------*/
+
+footer {
+  min-height: 67vh;
+  background-color: black;
+}
+
+.footer {
+  font-family: sans-serif;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 27px;
+  justify-items: center;
+  padding-top: 37px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 23px;
+}
+
+/*--------------First-Grid-Section-------------*/
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 17px;
+  margin-bottom: 23px;
+}
+
+.footer img {
+  width: 10vw;
+}
+
+.hire-text a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.hire-text a:hover {
+  text-decoration: underline;
+  color: #4f329b;
+}
+
+.down-the-image {
+  padding-left: 20px;
+}
+
+/*--------------Second-Grid-Section-------------*/
+.media-context {
+  margin-bottom: 23px;
+}
+.media-context p {
+  display: inline;
+  padding-left: 3px;
+}
+.media-context p > a {
+  color: white;
+  text-decoration-color: #008ccf;
+}
+
+.media-context p > a:hover {
+  text-decoration: none;
+}
+
+.media-context article {
+  padding-top: 6px;
+}
+
+/*--------------Third-Grid-Section-------------*/
+
+.footer-menu-list li {
+  list-style: none;
+  margin-bottom: 27px;
+}
+
+.footer-menu-list li a {
+  color: white;
+  text-decoration-color: #711def;
+}
+
+.footer-menu-list li p {
+  margin-top: 7px;
+}
+
+.footer-menu-list li a:hover {
+  text-decoration: none;
+}
+
+/*--------------Copy-Right-Section-------------*/
+.copy-right {
+  text-align: center;
+  color: white;
+  padding-bottom: 23px;
+}
+
 /*------Media Quyrie-------*/
 @media screen and (max-width: 1035px) {
   #menu-list {
@@ -463,6 +563,17 @@ hr {
     padding: 27px;
     margin-top: 13px;
     height: 420px;
+  }
+
+  /*---------------FOOTER SECTION-----------------*/
+
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 27px;
+  }
+
+  .footer-pages {
+    display: none;
   }
 }
 
@@ -720,6 +831,17 @@ hr {
     margin-top: 0;
     height: 420px;
   }
+
+  /*---------------FOOTER SECTION-----------------*/
+
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 37px;
+    padding: 50px 80px;
+    width: 86vw;
+    margin: auto;
+  }
 }
 
 /*--------For Mobile--------*/
@@ -736,6 +858,7 @@ hr {
     font-size: 1.3rem;
   }
 
+  /*----------Top Section--------------*/
   .top-section .text .top-text {
     font-size: 24px;
   }
@@ -758,13 +881,168 @@ hr {
     font-size: 24px;
     height: 36px;
   }
+
+  /*------------for second section----------*/
+  #Images {
+    padding: 4px 9px;
+  }
+
+  #Images .head-text {
+    font-size: 37px;
+    margin-bottom: 30px;
+  }
+  /*-----------first image--------*/
+
+  .first-container .ImgBox {
+    margin-top: 18px;
+    width: 93vw;
+    margin: auto;
+  }
+
+  .text-container {
+    width: 91vw;
+  }
+
+  .first-container .card {
+    min-height: 13vh;
+    min-width: 87vw;
+  }
+
+  .first-container .card p {
+    font-size: 40px;
+    margin: 6px;
+    padding: 0;
+  }
+
+  .text-container #first-project-content {
+    font-size: 18px;
+  }
+
+  .first-container .first-small-heading {
+    font-size: 20px;
+  }
+
+  .first-container .ImgBox img {
+    width: 94vw;
+    height: 224px;
+    padding: 8px;
+    margin: auto;
+  }
+
+  /*-----------second image--------*/
+
+  .second-conatiner .ImgBox {
+    margin-top: 18px;
+    width: 93vw;
+    margin: auto;
+  }
+
+  .text-container {
+    width: 91vw;
+  }
+
+  .second-conatiner .card {
+    min-height: 13vh;
+    min-width: 87vw;
+  }
+
+  .second-conatiner .card p {
+    font-size: 40px;
+    margin: 6px;
+    padding: 0;
+  }
+
+  .text-container #second-project-content {
+    font-size: 18px;
+  }
+
+  .second-conatiner .second-small-heading {
+    font-size: 20px;
+  }
+
+  .second-conatiner .ImgBox img {
+    width: 94vw;
+    height: 224px;
+    padding: 8px;
+    margin: auto;
+  }
+
+  /*-----------Third image--------*/
+
+  .third-container .ImgBox {
+    margin-top: 18px;
+    width: 93vw;
+    margin: auto;
+  }
+
+  .text-container {
+    width: 91vw;
+  }
+
+  .third-container .card {
+    min-height: 13vh;
+    min-width: 87vw;
+  }
+
+  .third-container .card p {
+    font-size: 40px;
+    margin: 6px;
+    padding: 0;
+  }
+
+  .text-container #third-project-content {
+    font-size: 18px;
+  }
+
+  .third-container .third-small-heading {
+    font-size: 20px;
+  }
+
+  .third-container .ImgBox img {
+    width: 94vw;
+    height: 224px;
+    padding: 8px;
+    margin: auto;
+  }
+
+  /*---------------FOOTER SECTION-----------------*/
+  .footer {
+    padding: 50px 20px;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .flex .footer-text-message {
+    font-size: 14px;
+  }
+
+  .flex img {
+    width: 26vw;
+  }
+
+  .flex {
+    column-gap: 28px;
+  }
+
+  .down-the-image .footer-head {
+    font-size: 25px;
+  }
+
+  .down-the-image .hire-text {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+  .copy-right {
+    margin-top: -30px;
+  }
 }
 
 /*--------For Smallest Mobile Device--------*/
 
 @media screen and (max-width: 325px) {
   #navbar {
-    padding: 0px 24px;
+    padding: 0px 9px;
   }
   #menu-list {
     width: 65%;
@@ -776,6 +1054,11 @@ hr {
 
   .menu #emoji-button {
     font-size: 1.2rem;
+  }
+
+  .top-section .text {
+    text-align: center;
+    padding: 19px 8px;
   }
 
   .top-section .text .top-text {
@@ -803,7 +1086,7 @@ hr {
 
   /*------------for second section----------*/
   #Images {
-    padding: 4px 27px;
+    padding: 4px 9px;
   }
 
   #Images .head-text {
@@ -814,16 +1097,17 @@ hr {
 
   .first-container .ImgBox {
     margin-top: 18px;
-    width: 87vw;
+    width: 93vw;
+    margin: auto;
   }
 
   .text-container {
-    width: 87vw;
+    width: 91vw;
   }
 
   .first-container .card {
     min-height: 25vh;
-    width: 87vw;
+    min-width: 87vw;
   }
 
   .first-container .card p {
@@ -841,25 +1125,27 @@ hr {
   }
 
   .first-container .ImgBox img {
-    width: 88vw;
-    height: 238px;
-    padding: 19px;
+    width: 94vw;
+    height: 224px;
+    padding: 8px;
+    margin: auto;
   }
 
   /*-----------second image--------*/
 
   .second-conatiner .ImgBox {
     margin-top: 18px;
-    width: 87vw;
+    width: 93vw;
+    margin: auto;
   }
 
   .text-container {
-    width: 87vw;
+    width: 91vw;
   }
 
   .second-conatiner .card {
     min-height: 25vh;
-    width: 87vw;
+    min-width: 87vw;
   }
 
   .second-conatiner .card p {
@@ -877,25 +1163,27 @@ hr {
   }
 
   .second-conatiner .ImgBox img {
-    width: 88vw;
-    height: 238px;
-    padding: 19px;
+    width: 94vw;
+    height: 224px;
+    padding: 8px;
+    margin: auto;
   }
 
   /*-----------Third image--------*/
 
   .third-container .ImgBox {
     margin-top: 18px;
-    width: 87vw;
+    width: 93vw;
+    margin: auto;
   }
 
   .text-container {
-    width: 87vw;
+    width: 91vw;
   }
 
   .third-container .card {
     min-height: 25vh;
-    width: 87vw;
+    min-width: 87vw;
   }
 
   .third-container .card p {
@@ -913,9 +1201,38 @@ hr {
   }
 
   .third-container .ImgBox img {
-    width: 88vw;
-    height: 238px;
-    padding: 19px;
+    width: 94vw;
+    height: 224px;
+    padding: 8px;
+    margin: auto;
+  }
+
+  /*---------------FOOTER SECTION-----------------*/
+  .footer {
+    padding: 40px 0px;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .flex .footer-text-message {
+    font-size: 12px;
+  }
+
+  .flex img {
+    width: 26vw;
+  }
+
+  .down-the-image .footer-head {
+    font-size: 23px;
+  }
+
+  .down-the-image .hire-text {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .copy-right {
+    margin-top: -30px;
   }
 }
 
