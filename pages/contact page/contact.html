@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front-End developer | Article</title>
-    <link rel="stylesheet" href="../styles/index.css" />
+    <title>Contact File</title>
+    <link rel="stylesheet" href="../../styles/contact.css" />
+    <link rel="stylesheet" href="../../styles/index.css" />
   </head>
   <body>
     <header>
@@ -12,13 +13,13 @@
         <div class="left">Sabbir's-Portfolio</div>
         <section class="menu">
           <ul id="menu-list">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./portfolio.html">Protfolio</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./testimonial.html">Testimonial</a></li>
-            <li><a href="./article.html">Article</a></li>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../portfolio.html">Protfolio</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../testimonial.html">Testimonial</a></li>
+            <li><a href="../article.html">Article</a></li>
             <li class="button-height">
-              <a class="btn" href="./contact page/contact.html">Contact</a>
+              <a class="btn" href="./contact.html">Contact</a>
             </li>
           </ul>
 
@@ -30,8 +31,45 @@
       </nav>
     </header>
 
-    <h1>This is Article page</h1>
-
+    <main>
+      <div class="container">
+        <form
+          id="contactForm"
+          action="https://formsubmit.co/cdf4faf9cca2e84c7e56b76aa8cc6b3f"
+          method="POST"
+        >
+          <h3>Get In Touch</h3>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Input Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Input Your Email"
+            required
+          />
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Your Phone Number (With Country Code)"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="How Can We Help You?"
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
 
     <footer>
       <div class="footer">
@@ -98,23 +136,23 @@
         <div class="footer-pages">
           <ul class="footer-menu-list">
             <li>
-              <a href="../index.html">HOME</a>
+              <a href="../../index.html">HOME</a>
               <p>You can get basic idea about me and my work</p>
             </li>
             <li>
-              <a href="./portfolio.html">PROTFOLIO</a>
+              <a href="../portfolio.html">PROTFOLIO</a>
               <p>Explore my portfolio of previous projects</p>
             </li>
             <li>
-              <a href="./about.html">ABOUT</a>
+              <a href="../about.html">ABOUT</a>
               <p>Discover more about me and my workflow</p>
             </li>
             <li>
-              <a href="./article.html">ARTICLE</a>
+              <a href="../article.html">ARTICLE</a>
               <p>Read web and career retated articles & opinions</p>
             </li>
             <li>
-              <a href="./contact page/contact.html">GET IN TOUCH</a>
+              <a href="./contact.html">GET IN TOUCH</a>
               <p>Contact With Me via Form</p>
             </li>
           </ul>
@@ -122,15 +160,14 @@
       </div>
 
       <div class="copy-right">
-        Copyright &#169 2023 sabbir Limited | All Right Reserved
+        Copyright  &#169 2023 sabbir Limited | All Right Reserved
       </div>
     </footer>
-    
     <script
-    src="https://kit.fontawesome.com/27396b6747.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/27396b6747.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="../js/index.js"></script>
+    <script src="../../js/index.js"></script>
   </body>
 </html>
