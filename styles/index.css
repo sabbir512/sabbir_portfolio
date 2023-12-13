@@ -399,6 +399,13 @@ footer {
   padding-left: 20px;
 }
 
+.direct-mail{
+  padding-top: 16px;
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /*--------------Second-Grid-Section-------------*/
 .media-context {
   margin-bottom: 23px;
