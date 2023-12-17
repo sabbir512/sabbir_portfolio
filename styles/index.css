@@ -109,6 +109,31 @@ header {
   line-height: 37px;
 }
 
+/*CLIENT NOW BUTTON*/
+.become_a_client {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.become_a_client button {
+  background-color: green;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 11px;
+}
+
+.become_a_client button a {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.become_a_client button:hover {
+  background-color: rgb(17, 96, 17);
+  cursor: pointer;
+}
+
 /*---CARDS---*/
 hr {
   width: 96%;
@@ -399,7 +424,7 @@ footer {
   padding-left: 20px;
 }
 
-.direct-mail{
+.direct-mail {
   padding-top: 16px;
   color: rgb(255, 0, 0);
   font-size: 18px;
@@ -1069,6 +1094,7 @@ footer {
 
   .menu #emoji-button {
     font-size: 1.2rem;
+    padding-left: 27px;
   }
 
   .top-section .text {
@@ -1123,12 +1149,13 @@ footer {
   .first-container .card {
     min-height: 25vh;
     min-width: 87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .first-container .card p {
-    font-size: 40px;
-    margin: 6px;
-    padding: 0;
+    font-size: 32px;
   }
 
   .text-container #first-project-content {
@@ -1161,12 +1188,13 @@ footer {
   .second-conatiner .card {
     min-height: 25vh;
     min-width: 87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .second-conatiner .card p {
-    font-size: 40px;
-    margin: 6px;
-    padding: 0;
+    font-size: 32px;
   }
 
   .text-container #second-project-content {
@@ -1199,12 +1227,13 @@ footer {
   .third-container .card {
     min-height: 25vh;
     min-width: 87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .third-container .card p {
-    font-size: 40px;
-    margin: 6px;
-    padding: 0;
+    font-size: 32px;
   }
 
   .text-container #third-project-content {
@@ -1231,6 +1260,10 @@ footer {
 
   .flex .footer-text-message {
     font-size: 12px;
+  }
+
+  .direct-mail {
+    font-size: 14px;
   }
 
   .flex img {
