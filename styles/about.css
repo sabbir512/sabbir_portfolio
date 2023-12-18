@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
 }
+
 #about-main {
   width: 48%;
   padding: 36px 0;
@@ -51,4 +52,50 @@ main img {
   background-color: #56bd78;
   color: #ff868c;
   text-decoration: underline;
+}
+
+/*---------------------------------------------------*/
+
+
+@media screen and (max-width: 866px) {
+  #about-main {
+    width: 68%;
+  }
+
+  main img {
+    width: 112%;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  #about-main {
+    width: 82%;
+  }
+
+  main img {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  #about-main {
+    width: 93%;
+    margin-left: 5%;
+  }
+
+  main img {
+    width: 94%;
+  }
+
+  .top-big-text {
+    font-size: 35px;
+  }
+
+  #about-main .paragraph p {
+    font-size: 18px;
+    width: 94%;
+  }
+  #about-main .paragraph p:nth-child(1) {
+    font-size: 22px;
+  }
 }
