@@ -1,0 +1,23 @@
+.testimonial-main {
+  width: 45vw;
+  height: 55vh;
+  margin: auto;
+  
+}
+.one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 43px;
+}
+.one img {
+  width: 74px;
+  height: 74px;
+  border-radius: 100%;
+}
+
+.card {
+  width: 445px;
+  height: 178px;
+  background-color: black;
+}
